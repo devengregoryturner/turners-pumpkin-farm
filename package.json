@@ -1,0 +1,29 @@
+{
+  "name": "turners-pumpkin-farm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:html": "npx cpx2 \"src/index.html\" dist --watch",
+    "watch:css": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch",
+    "start": "npx concurrently \"npm run watch:html\" \"npm run watch:css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devengregoryturner/turners-pumpkin-farm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devengregoryturner/turners-pumpkin-farm/issues"
+  },
+  "homepage": "https://github.com/devengregoryturner/turners-pumpkin-farm#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "concurrently": "^9.2.1",
+    "cpx": "^1.2.1",
+    "cpx2": "^8.0.0"
+  }
+}

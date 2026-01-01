@@ -19,11 +19,11 @@
     "url": "https://github.com/devengregoryturner/turners-pumpkin-farm/issues"
   },
   "homepage": "https://github.com/devengregoryturner/turners-pumpkin-farm#readme",
-  "dependencies": {},
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "concurrently": "^9.2.1",
     "cpx": "^1.2.1",
-    "cpx2": "^8.0.0"
+    "cpx2": "^8.0.0",
+    "tailwindcss": "^4.1.18"
   }
 }

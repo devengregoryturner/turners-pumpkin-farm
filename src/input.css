@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+/* Scan BOTH source and built HTML */
+@source "../src/**/*.html";
+@source "../dist/**/*.html";
